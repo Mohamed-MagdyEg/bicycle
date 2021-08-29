@@ -1,0 +1,1386 @@
+.main{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 200px;
+    font-family: 'Kaisei Decol', serif;
+}
+#menu{
+display: none;
+}
+.logo{
+    float: left;
+    width:30%;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 26px;
+    text-transform: uppercase;
+
+}
+.lion{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.topleft{
+    float:left;
+    width: 35%;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.topleft div:hover{
+    color: #c7ac1b;
+    cursor: pointer;
+}
+#close{
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    padding: 20px 30px;
+    display: none;
+
+}
+.menus{
+    display: inline-flex;
+   padding: 30px 20px;
+   font-size: 17px;
+
+}
+.topleft div{
+    display: inline-flex;
+   padding: 20px 20px;
+   font-size: 17px;
+
+}
+.topright{
+    float: left;
+    width: 35%;
+    text-align: end;
+    
+}
+
+.topright i{
+    font-size: 25px;
+    color: rgb(44, 44, 44);
+    padding: 20px 30px;
+
+}
+/*siamese*/
+
+
+.contain{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 60%;
+    height: 400px;
+}
+.left img{
+    width:96% ;
+    height: 100%;
+}
+.right{
+    width: 44%;
+    height: 400px;
+    text-align: center;
+}
+.shape{
+    width: 168px;
+    height: 78px;
+    background-color: #ffd202;
+    border-radius: 38px 154px 28px 43px;    
+}
+siam{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: uppercase;
+    color: #000;
+}
+salary{
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Kaisei Decol', serif;
+    color: white;
+    display: block;
+
+}
+.colorword{
+    width: 15%;
+    display: block;
+    font-size: 21px;
+    font-weight: 800;
+    font-family: 'Kaisei Decol', serif;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.color{
+    width: 99%;
+    display: inline-block;
+    margin-top: 5px;
+    text-align: left;
+}
+.color div:nth-child(1){
+    width: 26px;
+    height: 26px;
+    background-color: #18537b;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.color div:nth-child(2){
+    width: 26px;
+    height: 26px;
+    background-color: #e64e10;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.size{
+    text-align: left;
+}
+#size{
+    padding: 6px 19px;
+    border-radius: 9px;
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: 600;
+}
+#size:focus{
+    outline: none;
+}
+.sub{
+    text-align: left;
+}
+.inp{
+    width: 37px;
+    margin-right: 5px;
+}
+.plus{
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+}
+.plus:focus,.inp:focus{
+    outline: none;
+} 
+.plus:hover{
+    background-color: rgb(131, 130, 130);
+    cursor: pointer;
+}
+.chart{
+    background-color: black;
+    color: white;
+    padding: 6px 25px;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.chart:hover{
+    background-color: rgba(0, 0, 0, 0.849);
+}
+.chart:focus{
+    outline: none;
+}
+/*description*/
+
+.description{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+
+}
+.address{
+    width: 70%;
+}
+.address div{
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding: 10px 20px;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;
+    background-color: white; 
+    margin-right: 10px;
+    border-radius: 7px 7px 0 0;
+    cursor: pointer;
+
+}
+.address div:hover{
+    background-color: black;
+    color: white;
+}
+.address div:nth-child(1){
+    margin-left: 70px;
+    background-color: black;
+    color: white;
+}
+
+.descontain{
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.descontain2{
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: 20px;
+}
+.descontain3 ,.descontain4{
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    display: none;
+}
+.descontain3 .desleft,.descontain4 .desleft{
+    width: 85%;
+
+}
+.desleft{
+    width: 40%;
+    height: 350px;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;
+}
+.desleft div:nth-child(1){
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.desleft div:nth-child(2){
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    line-height: 32px;   
+}
+.desright{
+    width: 40%;
+    height: 350px;
+
+}
+.desright img{
+    width:100% ;
+    height: 100%;
+    border-radius: 5px;
+}
+.deslorem{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
+.deslorem div{
+    display: inline-block;
+    width: 93%;
+    color: black;
+    font-size: 17px;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+/*contact us*/
+
+.contact{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize; 
+    font-size: 15px;        
+}
+.contactcont3{
+    margin-top: 37px;
+}
+.contactcont3 div{
+    margin-bottom: 8px;
+
+}.contactcont4 {
+    margin-top: 37px;
+}
+.contactcont4 div{
+    margin-bottom: 8px;
+}
+.contactcont4 div:nth-child(3){
+    margin-top: 20px;
+}
+.contactcont  div{
+    margin-bottom: 8px;
+    
+}
+
+.contactcont4 i{
+    font-size: 30px;
+    margin-right:17%;
+    cursor: pointer;
+}
+.contactcont4 i:hover{
+    color: rgb(165, 160, 160);
+
+}
+.contactcont4 input{
+    background-color: black;
+    border: 1px solid white;
+    padding: 7px 30px;
+    border-right:none ;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+}
+.contactcont4 input:focus{
+    outline: none;
+}
+.contactcont4 button{
+    background-color: white;
+    position: relative;
+    right: 2px;
+    padding: 8px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 0 3px 3px 0;
+}
+.contactcont4 button:hover{
+    background-color: rgb(240, 235, 235);
+}
+.contactcont4 button:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 925px) {
+    body{
+        width: 100%;
+        min-height: 100%;
+        
+    }
+    .main{
+        width: 100%;
+       
+    }
+    .top{
+        width: 100%;
+        height: 150px;
+        font-family: 'Kaisei Decol', serif;
+    }
+    #menu{
+        display: none;
+        }
+    .logo{
+        float: left;
+        width:31%;
+        padding: 10px 0px;
+        color: #000;
+        font-size: 23px;
+        text-transform: uppercase;
+    
+    }
+    .lion{
+        width: 46px;
+        height: 46px;
+        margin-right: 1px;
+    }
+    .topleft{
+        float:left;
+        width: 36%;
+        text-align: center;
+        text-transform: capitalize;
+    
+    }
+    .topleft div:hover{
+        color: #c7ac1b;
+        cursor: pointer;
+    }
+    .menus{
+        display: inline-flex;
+       padding: 30px 16px;
+       font-size: 16px;
+    
+    }
+    .topleft div{
+        display: inline-flex;
+        padding: 20px 5px;
+        font-size: 16px;
+    
+    }
+    .topright{
+        float: left;
+        width: 32%;
+        text-align: end;
+        
+    
+    
+    }
+    #close{
+        font-size: 20px;
+        color: rgb(44, 44, 44);
+        padding: 20px 30px;
+        display: none;
+    
+    }
+    .topright i{
+        font-size: 22px;
+        color: rgb(44, 44, 44);
+        padding: 20px 19px;
+    
+    }
+    .contain{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+    }
+    .left{
+        width: 60%;
+        height: 400px;
+    }
+    .left img{
+        width:96% ;
+        height: 100%;
+    }
+    .right{
+        width: 44%;
+        height: 400px;
+        text-align: center;
+    }
+    .shape{
+        width: 168px;
+        height: 78px;
+        background-color: #ffd202;
+        border-radius: 38px 154px 28px 43px;    
+    }
+    siam{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: uppercase;
+        color: #000;
+    }
+    salary{
+        font-size: 23px;
+        font-weight: 700;
+        font-family: 'Kaisei Decol', serif;
+        color: white;
+        display: block;
+    
+    }
+    .colorword{
+        width: 15%;
+        display: block;
+        font-size: 21px;
+        font-weight: 800;
+        font-family: 'Kaisei Decol', serif;
+        margin-top: 5px;
+        text-transform: capitalize;
+    }
+    .color{
+        width: 99%;
+        display: inline-block;
+        margin-top: 5px;
+        text-align: left;
+    }
+    .color div:nth-child(1){
+        width: 26px;
+        height: 26px;
+        background-color: #18537b;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .color div:nth-child(2){
+        width: 26px;
+        height: 26px;
+        background-color: #e64e10;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    .size{
+        text-align: left;
+    }
+    #size{
+        padding: 6px 19px;
+        border-radius: 9px;
+        opacity: 0.6;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #size:focus{
+        outline: none;
+    }
+    .sub{
+        text-align: left;
+    }
+    .inp{
+        width: 37px;
+        margin-right: 5px;
+    }
+    .plus{
+        padding: 3px 10px;
+        border-radius: 5px;
+        font-weight: bolder;
+        border: none;
+    }
+    .plus:focus,.inp:focus{
+        outline: none;
+    } 
+    .plus:hover{
+        background-color: rgb(131, 130, 130);
+        cursor: pointer;
+    }
+    .chart{
+        background-color: black;
+        color: white;
+        padding: 6px 25px;
+        font-size: 19px;
+        text-transform: capitalize;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .chart:hover{
+        background-color: rgba(0, 0, 0, 0.849);
+    }
+    .chart:focus{
+        outline: none;
+    }
+
+
+    .description{
+        width: 100%;
+        height: 900px;
+        background-color: black;
+    
+    }
+    .address{
+        width: 70%;
+    }
+    .address div{
+        display: inline-block;
+        font-size: 20px;
+        color: black;
+        font-weight: 700;
+        padding: 10px 20px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        background-color: white; 
+        margin-right: 10px;
+        border-radius: 7px 7px 0 0;
+        cursor: pointer;
+    
+    }
+    .address div:hover{
+        background-color: black;
+        color: white;
+    }
+    .address div:nth-child(1){
+        margin-left: 70px;
+        background-color: black;
+        color: white;
+    }
+    
+    .descontain{
+        width: 100%;
+        height: 440px;
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-end;
+    }
+    .descontain2{
+        margin-top: 0px;
+        width: 100%;
+        height: 540px;
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+    .descontain3 ,.descontain4{
+        width: 100%;
+        height: 540px;
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        display: none;
+    }
+    .descontain3 .desleft,.descontain4 .desleft{
+        width: 85%;
+    
+    }
+    .desleft{
+        width:45%;
+        height: 350px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+    }
+    .desleft div:nth-child(1){
+        font-size: 22px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+    
+    }
+    .desleft div:nth-child(2){
+        height: 350px;
+        font-size: 15px;
+        color: white;
+        font-weight: 500;
+        line-height: 30px;   
+    }
+    .desright{
+        width: 50%;
+        height: 350px;
+    
+    }
+    .desright img{
+        width:100% ;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .deslorem{
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    
+    }
+    .deslorem div{
+        display: inline-block;
+        width: 93%;
+        color: black;
+        font-size: 17px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        text-align: left;
+    }
+    /*contact us*/
+    
+    .contact{
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize; 
+        font-size: 13px;        
+    }
+    .contactcont3{
+        margin-top: 37px;
+    }
+    .contactcont3 div{
+        margin-bottom: 14px;
+    
+    }.contactcont4 {
+        margin-top: 37px;
+    }
+    .contactcont4 div{
+        margin-bottom: 14px;
+    }
+    .contactcont4 div:nth-child(3){
+        margin-top: 20px;
+    }
+    .contactcont  div{
+        margin-bottom: 14px;
+        
+    }
+    
+    .contactcont4 i{
+        font-size: 26px;
+        margin-right:17%;
+        cursor: pointer;
+    }
+    .contactcont4 i:hover{
+        color: rgb(165, 160, 160);
+    
+    }
+    .contactcont4 input{
+        background-color: black;
+        border: 1px solid white;
+        padding: 6px 8px;
+        border-right:none ;
+        font-size: 15px;
+        color: white;
+        border-radius: 4px;
+    }
+    .contactcont4 input:focus{
+        outline: none;
+    }
+    .contactcont4 button{
+        background-color: white;
+        position: relative;
+        right: 2px;
+        padding: 9px 30px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 0 3px 3px 0;
+    }
+    .contactcont4 button:hover{
+        background-color: rgb(240, 235, 235);
+    }
+    .contactcont4 button:focus{
+        outline: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+    body{
+        width: 100%;
+        min-height: 100%;
+        
+    }
+    .main{
+        width: 100%;
+       
+    }
+    .top{
+        width: 100%;
+        height: 120px;
+        font-family: 'Kaisei Decol', serif;
+    }
+    .logo{
+        float: left;
+        width: 44%;
+        padding: 10px 0px;
+        color: #000;
+        font-size: 17px;
+        text-transform: uppercase;
+    
+    }
+    .lion{
+        width: 37px;
+        height: 37px;
+        margin-right: 1px;
+    }
+    .topleft{
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        top: 56px;
+        left: 30%;
+        text-transform: capitalize;
+        position: absolute;
+        background-color: black;
+        z-index: 444 ;
+        border-radius: 8px;
+        display: none;
+
+    
+    }
+    .topleft div:hover{
+        color: #c7ac1b;
+        cursor: pointer;
+    }
+    .menus{
+        display: inline-flex;
+       padding: 30px 16px;
+       font-size: 16px;
+    
+    }
+    .topleft div{
+        padding: 20px 5px;
+        font-size: 16px;
+        color: white;
+    
+    }
+    .topright{
+        float: right;
+        width: 54%;
+        text-align: end;
+        
+    
+       
+    }
+    #menu{
+        display:inline-block;
+        cursor: pointer;
+        
+        }
+   
+    .topright i{
+        font-size: 17px;
+        color: rgb(44, 44, 44);
+        padding: 20px 19px;
+        
+    
+    }
+    #close{
+        font-size: 20px;
+        color: white;
+        padding: 20px 30px;
+        position: absolute;
+        right: 0px;
+        cursor: pointer;
+        display: block;
+    }
+    .fa-times:hover{
+        color: rgb(161, 153, 153);
+    }
+    .contain{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left{
+        width: 100%;
+        height: 400px;
+    }
+    .left img{
+        width:96% ;
+        height: 100%;
+    }
+    .right{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shape{
+        width: 168px;
+        height: 78px;
+        background-color: #ffd202;
+        border-radius: 38px 154px 28px 43px;    
+    }
+    siam{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: uppercase;
+        color: #000;
+    }
+    salary{
+        font-size: 23px;
+        font-weight: 700;
+        font-family: 'Kaisei Decol', serif;
+        color: white;
+        display: block;
+    
+    }
+    .colorword{
+        width: 15%;
+        display: block;
+        font-size: 21px;
+        font-weight: 800;
+        font-family: 'Kaisei Decol', serif;
+        margin-top: 5px;
+       text-transform: capitalize;
+    }
+    .color{
+        width: 99%;
+        display: inline-block;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .color div:nth-child(1){
+        width: 26px;
+        height: 26px;
+        background-color: #18537b;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .color div:nth-child(2){
+        width: 26px;
+        height: 26px;
+        background-color: #e64e10;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    .size{
+        text-align: left;
+    }
+    #size{
+        padding: 6px 19px;
+        border-radius: 9px;
+        opacity: 0.6;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #size:focus{
+        outline: none;
+    }
+    .sub{
+        text-align: left;
+    }
+    .inp{
+        width: 37px;
+        margin-right: 5px;
+    }
+    .plus{
+        padding: 3px 10px;
+        border-radius: 5px;
+        font-weight: bolder;
+        border: none;
+    }
+    .plus:focus,.inp:focus{
+        outline: none;
+    } 
+    .plus:hover{
+        background-color: rgb(131, 130, 130);
+        cursor: pointer;
+    }
+    .chart{
+        background-color: black;
+        color: white;
+        padding: 6px 25px;
+        font-size: 19px;
+        text-transform: capitalize;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .chart:hover{
+        background-color: rgba(0, 0, 0, 0.849);
+    }
+    .chart:focus{
+        outline: none;
+    }
+
+
+    .description{
+        width: 100%;
+        height: 1348px;
+        background-color: black;
+    
+    }
+    .address{
+        width: 100%;
+    }
+    .address div{
+        width: 40%;
+        height: 50px;
+        display: inline-block;
+        font-size: 20px;
+        color: black;
+        font-weight: 700;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        background-color: white; 
+        margin-right: 0px;
+        border-radius: 7px 7px 0 0;
+        cursor: pointer;
+    
+    }
+    .address div:hover{
+        background-color: black;
+        color: white;
+    }
+    .address div:nth-child(1){
+        margin-left: 30px;
+        background-color: black;
+        color: white;
+    }
+    
+    .descontain{
+        width: 97%;
+        height: 684px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .descontain2{
+        margin-top: 0px;
+        width: 100%;
+        height: 679px;
+        background-color: black;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .descontain3 {
+        width: 100%;
+        height: 640px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        display: none;
+    }
+    .descontain4{
+        width: 100%;
+        height: 740px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        display: none;
+    }
+    .descontain3 .desleft,.descontain4 .desleft{
+        width: 90%;
+    
+    }
+    .desleft{
+        width:100%;
+        height: 250px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+    }
+    .desleft div:nth-child(1){
+        font-size: 24px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top:31px;
+    
+    }
+    .desleft div:nth-child(2){
+        height: 350px;
+        font-size: 17px;
+        color: white;
+        font-weight: 500;
+        line-height: 30px;   
+    }
+    .desright{
+        width: 100%;
+        height: 350px;
+    }
+    .desright img{
+        width:100% ;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .deslorem{
+        margin-top: 20px;
+        width: 100%;
+        height: 150px;
+        text-align: center;
+    
+    }
+    .deslorem div{
+        display: inline-block;
+        width: 93%;
+        color: black;
+        font-size: 17px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        text-align: left;
+    }
+        /*contact us*/
+    
+        .contact{
+            width: 100%;
+            height: 360px;
+            background-color: black;
+            color: white;
+            display: inline-block;
+            font-family: 'Kaisei Decol', serif;
+            text-transform: capitalize; 
+            font-size: 13px;        
+        }
+        .contactcont{
+            width: 30%;
+            display: inline-block;
+            position: relative;
+            left: 44px;
+        }
+        .contactcont3{
+            margin-top: 0px;
+            width: 30%;
+            display: inline-block;
+            position: relative;
+            top: 33px;
+            left: 7%;
+        }
+        
+        .contactcont3 div{
+            margin-bottom: 14px;
+        
+        }.contactcont4 {
+            width: 100%;
+            margin-top: 37px;
+            display: block;
+            text-align: center;
+        }
+        .contactcont4 div{
+            margin-bottom: 14px;
+        }
+        .contactcont4 div:nth-child(3){
+            margin-top: 20px;
+        }
+        .contactcont  div{
+            margin-bottom: 14px;
+            
+        }
+        
+        .contactcont4 i{
+            font-size: 26px;
+            margin-right:17%;
+            cursor: pointer;
+        }
+        .contactcont4 i:hover{
+            color: rgb(165, 160, 160);
+        
+        }
+        .contactcont4 input{
+            background-color: black;
+            border: 1px solid white;
+            padding: 7px 27px;
+            border-right:none ;
+            font-size: 15px;
+            color: white;
+            border-radius: 4px;
+        }
+        .contactcont4 input:focus{
+            outline: none;
+        }
+        .contactcont4 button{
+            background-color: white;
+            position: relative;
+            right: 2px;
+            padding: 10px 30px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            border-radius: 0 3px 3px 0;
+        }
+        .contactcont4 button:hover{
+            background-color: rgb(240, 235, 235);
+        }
+        .contactcont4 button:focus{
+            outline: none;
+        }
+    
+}
+@media screen and (max-width: 429px) {
+    body{
+        width: 100%;
+        min-height: 100%;
+        
+    }
+    .main{
+        width: 100%;
+        
+    }
+    .top{
+        width: 100%;
+        height: 120px;
+        font-family: 'Kaisei Decol', serif;
+    }
+    .logo{
+        float: left;
+        width: 44%;
+        padding: 10px 0px;
+        color: #000;
+        font-size: 15px;
+        text-transform: uppercase;
+    
+    }
+    .lion{
+        width: 37px;
+        height: 37px;
+        margin-right: 1px;
+    }
+    .topleft{
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        top: 56px;
+        left: 30%;
+        text-transform: capitalize;
+        position: absolute;
+        background-color: black;
+        z-index: 444 ;
+        border-radius: 8px;
+        display: none;
+
+    
+    }
+    .topleft div:hover{
+        color: #c7ac1b;
+        cursor: pointer;
+    }
+    .menus{
+        display: inline-flex;
+       padding: 30px 16px;
+       font-size: 16px;
+    
+    }
+    .topleft div{
+        padding: 20px 5px;
+        font-size: 16px;
+        color: white;
+    
+    }
+    .topright{
+        float: right;
+        width: 54%;
+        text-align: end;
+        
+    
+       
+    }
+    #menu{
+        display:inline-block;
+        cursor: pointer;
+        
+        }
+   
+    .topright i{
+        font-size: 17px;
+        color: rgb(44, 44, 44);
+        padding: 20px 6px;
+        
+    
+    }
+    #close{
+        font-size: 20px;
+        color: white;
+        padding: 20px 30px;
+        position: absolute;
+        right: 0px;
+        cursor: pointer;
+        display: block;
+    }
+    .fa-times:hover{
+        color: rgb(161, 153, 153);
+    }
+  /*contact us*/
+    
+  .contact{
+    width: 100%;
+    height: 360px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize; 
+    font-size: 12px;        
+}
+.contactcont{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    left: 1px;
+    }
+.contactcont3{
+    margin-top: 0px;
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top: 33px;
+    left: 1%;
+}
+
+.contactcont3 div{
+    margin-bottom: 14px;
+
+}.contactcont4 {
+    width: 100%;
+    margin-top: 37px;
+    display: block;
+    text-align: center;
+}
+.contactcont4 div{
+    margin-bottom: 14px;
+}
+.contactcont4 div:nth-child(3){
+    margin-top: 20px;
+}
+.contactcont  div{
+    margin-bottom: 14px;
+    
+}
+
+.contactcont4 i{
+    font-size: 26px;
+    margin-right:17%;
+    cursor: pointer;
+}
+.contactcont4 i:hover{
+    color: rgb(165, 160, 160);
+
+}
+.contactcont4 input{
+    background-color: black;
+    border: 1px solid white;
+    padding: 7px 27px;
+    border-right:none ;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+}
+.contactcont4 input:focus{
+    outline: none;
+}
+.contactcont4 button{
+    background-color: white;
+    position: relative;
+    right: 2px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 0 3px 3px 0;
+}
+.contactcont4 button:hover{
+    background-color: rgb(240, 235, 235);
+}
+.contactcont4 button:focus{
+    outline: none;
+}
+}

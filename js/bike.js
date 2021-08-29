@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#menu").click(function(){
+        $(".topleft").slideToggle(700).css({"display":"flex"});
+    })
+    $("#close").click(function(){
+        $(".topleft").slideUp(700);
+    })
+
+})
+$("#products").click(function(){
+    window.open("products.html")
+  })
+  $("#home").click(function(){
+    window.open("bike.html")
+  })
+  $("#contact").click(function(){
+    $("html,body").animate({
+        scrollTop:$(".contact").offset().top
+    },2000);
+});

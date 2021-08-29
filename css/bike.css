@@ -1,0 +1,2012 @@
+*{
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    
+}
+.main{
+    width: 100%;
+    height: 625px;
+    background: url("../image/mainbike.jpg") no-repeat center  ;
+    background-size: cover;
+}
+.top{
+    width: 100%;
+    height: 200px;
+    font-family: 'Kaisei Decol', serif;
+}
+#menu{
+display: none;
+}
+.logo{
+    float: left;
+    width:30%;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 26px;
+    text-transform: uppercase;
+
+}
+.lion{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.topleft{
+    float:left;
+    width: 35%;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.topleft div:hover{
+    color: #c7ac1b;
+    cursor: pointer;
+}
+#close{
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    padding: 20px 30px;
+    display: none;
+
+}
+.menus{
+    display: inline-flex;
+   padding: 30px 20px;
+   font-size: 17px;
+
+}
+.topleft div{
+    display: inline-flex;
+   padding: 20px 20px;
+   font-size: 17px;
+
+}
+.topright{
+    float: left;
+    width: 35%;
+    text-align: end;
+    
+}
+
+.topright i{
+    font-size: 25px;
+    color: rgb(44, 44, 44);
+    padding: 20px 30px;
+
+}
+
+.containmain{
+    display: inline-block;
+    width: 60%;
+    height: 179px;
+    background-color: #d4b60dad;
+    border-radius: 45px 52px 68px 199px;
+    transform: translate(25% ,38px);
+}
+.model{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    transform: translate(135px,35px);
+    font-weight: 700;
+    }
+.siam{
+    color: #fff;
+    font-size: 42px;
+    text-transform: uppercase;
+    transform: translate(30px,20px);
+    font-weight: 600;
+    letter-spacing: 8px;
+}   
+.shop{
+    color: #fff;
+    transform: translate(136px,20px);
+    font-weight: 700;
+    background-color: #fe8d01;
+    border-radius: 12px;
+    border: none;
+    padding: 4px 20px;
+}
+.shop:hover{
+   background-color: #ca7207;
+   cursor: pointer;
+}
+.shop:focus{
+    outline: none;
+}
+
+/*details*/
+.details{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    background-color: hsl(0deg 0% 96%)
+}
+.best{
+    color: #000;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;   
+    text-align: center;
+    font-family: 'Kaisei Decol', serif;
+}
+.benefit{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+.rect{
+    width: 79px;
+    height: 68px;
+    border-radius: 20px;
+    background-color: #ffd202;
+    box-shadow: 0px 1px 4px 2px #bc9a00;
+
+}
+.rect:hover{
+    
+    background-color: #bb9b0d;
+    cursor: pointer;
+
+}
+.benef{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.rect i{
+    font-size: 35px;
+    color: #000;
+    margin: 13px 21px;
+}
+.detbenef{
+    font-size: 22px;
+    font-family: fantasy;
+    text-transform: capitalize;
+    margin-top:10px;
+}
+/*models*/
+.models{
+    width: 100%;
+    height: 1500px;
+
+}
+mod{
+    font-size: 30px;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;
+    margin: 0px 0px 20px 99px;
+}
+.modelcont{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.modelleft{
+    width: 55%;
+
+
+}
+.modeldetails{
+    width: 70%;
+    height: 248px;
+    background-color: #ffd202;
+    border-radius: 337px 119px 662px 624px;
+    
+}
+.modeldetails3{
+    width: 70%;
+    height: 248px;
+    text-align: center;
+    background-color: #ffd202;
+    border-radius:624px 662px  337px  119px; 
+    
+}
+.modelright{
+    width: 35%;
+}
+.modeldetails2{
+    width:80%;
+    height: 300px;
+    text-align: left;
+}
+.modeldetails2 div:nth-child(1){
+    font-size: 30px;
+    font-family: 'Kaisei Decol', serif;  
+      text-transform: capitalize;
+    color: #000;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.modeldetails2 div:nth-child(2){
+    width: 70%;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'Kaisei Decol', serif;
+    color: #000;
+}
+.buy{
+
+ color: #fff;
+    font-weight: 700;
+    background-color: #fe8d01;
+    border-radius: 12px;
+    border: none;
+    margin-top: 35px;
+     padding: 9px 42px;
+     cursor: pointer;
+}
+.buy:hover{
+    background-color:  #d47705;
+}
+.bike{
+    width: 120%;
+    height: 120%;
+}
+/*reviews*/
+
+.review{
+    width: 100%;
+    height: 360px;
+
+
+}
+.wordrev{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;
+}
+.revdetails{
+    width: 100%;
+    height: 300px;
+    background-color:#ffd202;
+   
+}
+.reviewsdet{
+    display: flex;
+    justify-content: space-around;
+}
+.revcont{
+    width: 23%;
+    margin-top: 30px;
+
+}
+.revcont img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    
+}
+name{
+    display: inline;
+    font-size: 17px;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;
+    font-weight: 800;
+
+}
+.stars{
+    position: relative;
+    top: -12px;
+    right: -54px;
+    width: 156px;   
+}
+.stars i{
+    color: #f98300;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.lorem{
+    width: 100%;
+    font-size: 15px;
+    color: black;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;
+}
+/*customer*/
+
+.customer{
+    width: 100%;
+    height: 850px;    
+
+}
+cus{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;   
+    margin-bottom: 20px;
+}
+.photocont{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.photocont img:nth-child(1){
+    width: 27%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .8;
+}
+.photocont img:nth-child(1):hover,.photocont img:nth-child(2):hover,.photocont img:nth-child(3):hover ,.photocont2 img:nth-child(1):hover,.photocont2 img:nth-child(2):hover,.photocont2 img:nth-child(3):hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.photocont img:nth-child(2){
+    width: 38%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .8;
+}
+.photocont img:nth-child(3){
+    width: 33%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .8;
+}
+.photocont2{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.photocont2 img:nth-child(1){
+    width: 32%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .8;
+}
+.photocont2 img:nth-child(2){
+    width: 39%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .8;
+}
+.photocont2 img:nth-child(3){
+    width: 27%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: .8;
+}
+.photolorem{
+    width: 80%;
+    margin: auto;
+    font-size: 17px;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize;         
+}
+/*contact us*/
+
+.contact{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Kaisei Decol', serif;
+    text-transform: capitalize; 
+    font-size: 15px;        
+}
+.contactcont3{
+    margin-top: 37px;
+}
+.contactcont3 div{
+    margin-bottom: 8px;
+
+}.contactcont4 {
+    margin-top: 37px;
+}
+.contactcont4 div{
+    margin-bottom: 8px;
+}
+.contactcont4 div:nth-child(3){
+    margin-top: 20px;
+}
+.contactcont  div{
+    margin-bottom: 8px;
+    
+}
+
+.contactcont4 i{
+    font-size: 30px;
+    margin-right:17%;
+    cursor: pointer;
+}
+.contactcont4 i:hover{
+    color: rgb(165, 160, 160);
+
+}
+.contactcont4 input{
+    background-color: black;
+    border: 1px solid white;
+    padding: 7px 30px;
+    border-right:none ;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+}
+.contactcont4 input:focus{
+    outline: none;
+}
+.contactcont4 button{
+    background-color: white;
+    position: relative;
+    right: 2px;
+    padding: 8px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 0 3px 3px 0;
+}
+.contactcont4 button:hover{
+    background-color: rgb(240, 235, 235);
+}
+.contactcont4 button:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 925px) {
+    body{
+        width: 100%;
+        min-height: 100%;
+        
+    }
+    .main{
+        width: 100%;
+        height: 525px;
+        background: url("../image/mainbike.jpg") no-repeat center  ;
+        background-size: cover;
+    }
+    .top{
+        width: 100%;
+        height: 150px;
+        font-family: 'Kaisei Decol', serif;
+    }
+    #menu{
+        display: none;
+        }
+    .logo{
+        float: left;
+        width:31%;
+        padding: 10px 0px;
+        color: #000;
+        font-size: 23px;
+        text-transform: uppercase;
+    
+    }
+    .lion{
+        width: 46px;
+        height: 46px;
+        margin-right: 1px;
+    }
+    .topleft{
+        float:left;
+        width: 36%;
+        text-align: center;
+        text-transform: capitalize;
+    
+    }
+    .topleft div:hover{
+        color: #c7ac1b;
+        cursor: pointer;
+    }
+    .menus{
+        display: inline-flex;
+       padding: 30px 16px;
+       font-size: 16px;
+    
+    }
+    .topleft div{
+        display: inline-flex;
+        padding: 20px 5px;
+        font-size: 16px;
+    
+    }
+    .topright{
+        float: left;
+        width: 32%;
+        text-align: end;
+        
+    
+    
+    }
+    #close{
+        font-size: 20px;
+        color: rgb(44, 44, 44);
+        padding: 20px 30px;
+        display: none;
+    
+    }
+    .topright i{
+        font-size: 22px;
+        color: rgb(44, 44, 44);
+        padding: 20px 19px;
+    
+    }
+    
+    .containmain{
+        width: 57%;
+        display: inline-block;
+        height: 179px;
+        background-color: #d4b60dad;
+        border-radius: 45px 52px 68px 188px;
+        transform: translate(30% ,84px);
+    }
+    .model{
+        color: #fff;
+        font-size: 20px;
+        text-transform: capitalize;
+        transform: translate(135px,35px);
+        font-weight: 700;
+        }
+    .siam{
+        color: #fff;
+        font-size: 42px;
+        text-transform: uppercase;
+        transform: translate(30px,20px);
+        font-weight: 600;
+        letter-spacing: 8px;
+    }   
+    .shop{
+        color: #fff;
+        transform: translate(136px,20px);
+        font-weight: 700;
+        background-color: #fe8d01;
+        border-radius: 12px;
+        border: none;
+        padding: 4px 20px;
+    }
+    .shop:hover{
+       background-color: #ca7207;
+       cursor: pointer;
+    }
+    .shop:focus{
+        outline: none;
+    }
+    
+    /*details*/
+    .details{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+        background-color: hsl(0deg 0% 96%)
+    }
+    .best{
+        color: #000;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 700;   
+        text-align: center;
+        font-family: 'Kaisei Decol', serif;
+    }
+    .benefit{
+        display: flex;
+        
+        margin-top: 20px;
+    
+    
+    }
+    .rect{
+        width: 79px;
+        height: 68px;
+        border-radius: 20px;
+        background-color: #ffd202;
+        box-shadow: 0px 1px 4px 2px #bc9a00;
+    
+    }
+    .rect:hover{
+        
+        background-color: #bb9b0d;
+        cursor: pointer;
+    
+    }
+    .benef{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rect i{
+        font-size: 35px;
+        color: #000;
+        margin: 13px 21px;
+    }
+    .detbenef{
+        font-size: 18px;
+        font-family: fantasy;
+        text-transform: capitalize;
+        margin-top:10px;
+    }
+    /*models*/
+    .models{
+        width: 100%;
+        height: 1500px;
+    
+    }
+    mod{
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 0px;
+    }
+    .modelcont{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 200px;
+    }
+    .modelleft{
+        width: 55%;
+    
+    
+    }
+    .modeldetails{
+        width: 84%;
+        height: 248px;
+        background-color: #ffd202;
+        border-radius: 337px 119px 662px 624px;
+        
+    }
+    .modeldetails3{
+        width: 84%;
+        height: 248px;
+        text-align: center;
+        background-color: #ffd202;
+        border-radius:624px 662px  337px  119px; 
+        
+    }
+    .modelright{
+        width: 35%;
+    }
+    .modeldetails2{
+        width:80%;
+        height: 300px;
+        text-align: left;
+    }
+    .modeldetails2 div:nth-child(1){
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;  
+          text-transform: capitalize;
+        color: #000;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .modeldetails2 div:nth-child(2){
+        width: 100%;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-family: 'Kaisei Decol', serif;
+        color: #000;
+    }
+    .buy{
+    
+     color: #fff;
+        font-weight: 700;
+        background-color: #fe8d01;
+        border-radius: 12px;
+        border: none;
+        margin-top: 35px;
+         padding: 9px 42px;
+         cursor: pointer;
+    }
+    .buy:hover{
+        background-color:  #d47705;
+    }
+    .bike{
+        width: 120%;
+        height: 120%;
+    }
+    /*reviews*/
+    
+    .review{
+        width: 100%;
+        height: 450px;
+    
+    
+    }
+    .wordrev{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+    }
+    .revdetails{
+        width: 100%;
+        height: 370px;
+        background-color:#ffd202;
+       
+    }
+    .reviewsdet{
+        display: flex;
+        justify-content: space-around;
+    }
+    .revcont{
+        width: 23%;
+        margin-top: 30px;
+    
+    }
+    .revcont img{
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+    
+        
+    }
+    name{
+        display: inline;
+        font-size: 14px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        font-weight: 800;
+    
+    }
+    .stars{
+        position: relative;
+        top: -12px;
+        right: -47px;
+        width: 134px
+    }
+    .stars i{
+        color: #f98300;
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    
+    .lorem{
+        width: 100%;
+        font-size: 13px;
+        color: black;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+    }
+    /*customer*/
+    
+    .customer{
+        width: 100%;
+        height: 850px;    
+    
+    }
+    cus{
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;   
+        margin-bottom: 20px;
+    }
+    .photocont{
+        width: 95%;
+        height: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    
+    }
+    .photocont img:nth-child(1){
+        width: 27%;
+        height: 100%;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont img:nth-child(1):hover,.photocont img:nth-child(2):hover,.photocont img:nth-child(3):hover ,.photocont2 img:nth-child(1):hover,.photocont2 img:nth-child(2):hover,.photocont2 img:nth-child(3):hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    .photocont img:nth-child(2){
+        width: 38%;
+        height: 100%;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont img:nth-child(3){
+        width: 33%;
+        height: 100%;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont2{
+        width: 95%;
+        height: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    
+    }
+    .photocont2 img:nth-child(1){
+        width: 32%;
+        height: 100%;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont2 img:nth-child(2){
+        width: 39%;
+        height: 100%;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont2 img:nth-child(3){
+        width: 27%;
+        height: 100%;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photolorem{
+        width: 95%;
+        margin: auto;
+        font-size: 16px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;         
+    }
+    /*contact us*/
+    
+    .contact{
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize; 
+        font-size: 13px;        
+    }
+    .contactcont3{
+        margin-top: 37px;
+    }
+    .contactcont3 div{
+        margin-bottom: 14px;
+    
+    }.contactcont4 {
+        margin-top: 37px;
+    }
+    .contactcont4 div{
+        margin-bottom: 14px;
+    }
+    .contactcont4 div:nth-child(3){
+        margin-top: 20px;
+    }
+    .contactcont  div{
+        margin-bottom: 14px;
+        
+    }
+    
+    .contactcont4 i{
+        font-size: 26px;
+        margin-right:17%;
+        cursor: pointer;
+    }
+    .contactcont4 i:hover{
+        color: rgb(165, 160, 160);
+    
+    }
+    .contactcont4 input{
+        background-color: black;
+        border: 1px solid white;
+        padding: 6px 8px;
+        border-right:none ;
+        font-size: 15px;
+        color: white;
+        border-radius: 4px;
+    }
+    .contactcont4 input:focus{
+        outline: none;
+    }
+    .contactcont4 button{
+        background-color: white;
+        position: relative;
+        right: 2px;
+        padding: 9px 30px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 0 3px 3px 0;
+    }
+    .contactcont4 button:hover{
+        background-color: rgb(240, 235, 235);
+    }
+    .contactcont4 button:focus{
+        outline: none;
+    }   
+}
+@media screen and (max-width: 680px) {
+    body{
+        width: 100%;
+        min-height: 100%;
+        
+    }
+    .main{
+        width: 100%;
+        height: 325px;
+        background: url("../image/mainbike.jpg") no-repeat center  ;
+        background-size: cover;
+    }
+    .top{
+        width: 100%;
+        height: 120px;
+        font-family: 'Kaisei Decol', serif;
+    }
+    .logo{
+        float: left;
+        width: 44%;
+        padding: 10px 0px;
+        color: #000;
+        font-size: 17px;
+        text-transform: uppercase;
+    
+    }
+    .lion{
+        width: 37px;
+        height: 37px;
+        margin-right: 1px;
+    }
+    .topleft{
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        top: 56px;
+        left: 30%;
+        text-transform: capitalize;
+        position: absolute;
+        background-color: black;
+        z-index: 444 ;
+        border-radius: 8px;
+        display: none;
+
+    
+    }
+    .topleft div:hover{
+        color: #c7ac1b;
+        cursor: pointer;
+    }
+    .menus{
+        display: inline-flex;
+       padding: 30px 16px;
+       font-size: 16px;
+    
+    }
+    .topleft div{
+        padding: 20px 5px;
+        font-size: 16px;
+        color: white;
+    
+    }
+    .topright{
+        float: right;
+        width: 54%;
+        text-align: end;
+        
+    
+       
+    }
+    #menu{
+        display:inline-block;
+        cursor: pointer;
+        
+        }
+   
+    .topright i{
+        font-size: 17px;
+        color: rgb(44, 44, 44);
+        padding: 20px 19px;
+        
+    
+    }
+    #close{
+        font-size: 20px;
+        color: white;
+        padding: 20px 30px;
+        position: absolute;
+        right: 0px;
+        cursor: pointer;
+        display: block;
+    }
+    .fa-times:hover{
+        color: rgb(161, 153, 153);
+    }
+    
+    .containmain{
+        
+    width: 57%;
+    display: inline-block;
+    height: 170px;
+    background-color: #d4b60dad;
+    border-radius: 45px 52px 68px 188px;
+    transform: translate(30% ,0px);
+    }
+    .model{
+        color: #fff;
+        font-size: 19px;
+        text-transform: capitalize;
+        transform: translate(135px,35px);
+        font-weight: 700;
+        transform: translate(127px,35px);
+        display: inline-block;
+        }
+    .siam{
+        color: #fff;
+        font-size: 38px;
+        text-transform: uppercase;
+        transform: translate(30px,20px);
+        font-weight: 600;
+        letter-spacing: 8px;
+    }   
+    .shop{
+        color: #fff;
+        transform: translate(130px,20px);
+        font-weight: 700;
+        background-color: #fe8d01;
+        border-radius: 12px;
+        border: none;
+        padding: 4px 20px;
+    }
+    .shop:hover{
+       background-color: #ca7207;
+       cursor: pointer;
+    }
+    .shop:focus{
+        outline: none;
+    }
+    
+    /*details*/
+    .details{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
+        background-color: hsl(0deg 0% 96%)
+    }
+    .best{
+        color: #000;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 700;   
+        text-align: center;
+        font-family: 'Kaisei Decol', serif;
+    }
+    .benefit{
+        display:block;
+        margin-top: 0px;
+        width: 90%;
+    
+    }
+    .rect{
+        width: 79px;
+        height: 68px;
+        border-radius: 20px;
+        background-color: #ffd202;
+        box-shadow: 0px 1px 4px 2px #bc9a00;
+    
+    }
+    .rect:hover{
+        
+        background-color: #bb9b0d;
+        cursor: pointer;
+    
+    }
+    .benef{
+        left: 25%;
+        width: 40%;
+        height: 160px;
+        display: inline-block;
+        position: relative;
+        top: 22px;
+    }
+    .rect i{
+        font-size: 35px;
+        color: #000;
+        margin: 13px 21px;
+    }
+    .detbenef{
+        font-size: 18px;
+        font-family: fantasy;
+        text-transform: capitalize;
+        margin-top:10px;
+    }
+    /*models*/
+    .models{
+        width: 100%;
+        height: 2200px;
+    
+    }
+    mod{
+        width: 100%;
+        display: inline-block;
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .modelcont{
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 100px;
+    }
+    #modelcont2{
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .modelleft{
+        width: 90%;
+    
+        margin: auto;
+    }
+    .modeldetails{
+        width: 84%;
+        height: 248px;
+        background-color: #ffd202;
+        border-radius: 337px 119px 662px 624px;
+        
+    }
+    .modeldetails3{
+        width: 84%;
+        height: 248px;
+        text-align: center;
+        background-color: #ffd202;
+        border-radius:624px 662px  337px  119px; 
+        
+    }
+    .modelright{
+        width: 90%;
+        margin:60px auto;
+    }
+    .modeldetails2{
+        width:80%;
+        height: 300px;
+        text-align: left;
+    }
+    .modeldetails2 div:nth-child(1){
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;  
+          text-transform: capitalize;
+        color: #000;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .modeldetails2 div:nth-child(2){
+        width: 100%;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-family: 'Kaisei Decol', serif;
+        color: #000;
+    }
+    .buy{
+    
+     color: #fff;
+        font-weight: 700;
+        background-color: #fe8d01;
+        border-radius: 12px;
+        border: none;
+        margin-top: 35px;
+         padding: 9px 42px;
+         cursor: pointer;
+    }
+    .buy:hover{
+        background-color:  #d47705;
+    }
+    .bike{
+        width: 120%;
+        height: 120%;
+    }
+    /*reviews*/
+    
+    .review{
+        width: 100%;
+        height: 590px;
+    
+    
+    }
+    .wordrev{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+    }
+    .revdetails{
+        width: 100%;
+        height: 500px;
+        background-color:#ffd202;
+       
+    }
+    .reviewsdet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .revcont{
+        width: 98%;
+        margin-top: 30px;
+    
+    }
+    .revcont img{
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+    
+        
+    }
+    name{
+        display: inline;
+        font-size: 14px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        font-weight: 800;
+    
+    }
+    .stars{
+        position: relative;
+        top: -12px;
+        right: -47px;
+        width: 134px
+    }
+    .stars i{
+        color: #f98300;
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    
+    .lorem{
+        width:90%;
+        font-size: 13px;
+        color: black;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        margin: auto;
+    }
+    /*customer*/
+    
+    .customer{
+        width: 100%;
+        height: 2450px; 
+        text-align: center;   
+    
+    }
+    cus{
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;   
+        margin-bottom: 20px;
+    }
+    .photocont{
+        width: 100%;
+        height: 1060px;
+        margin: auto;
+        display:block;
+        margin-bottom: 20px;
+    
+    }
+    .photocont img:nth-child(1){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont img:nth-child(1):hover,.photocont img:nth-child(2):hover,.photocont img:nth-child(3):hover ,.photocont2 img:nth-child(1):hover,.photocont2 img:nth-child(2):hover,.photocont2 img:nth-child(3):hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    .photocont img:nth-child(2){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+        margin-top: 10px;
+    }
+    .photocont img:nth-child(3){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+        margin-top: 10px;
+    }
+    .photocont2{
+        width: 100%;
+        height: 1100px;
+        margin: auto;
+        display:block;
+        margin-bottom: 20px;
+    
+    }
+    .photocont2 img:nth-child(1){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont2 img:nth-child(2){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+        margin-top: 10px;
+    }
+    .photocont2 img:nth-child(3){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+        margin-top: 10px;
+    }
+    .photolorem{
+        width: 95%;
+        margin: auto;
+        font-size: 16px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;         
+    }
+    /*contact us*/
+    
+    .contact{
+        width: 100%;
+        height: 360px;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize; 
+        font-size: 13px;        
+    }
+    .contactcont{
+        width: 30%;
+        display: inline-block;
+        position: relative;
+        left: 44px;
+    }
+    .contactcont3{
+        margin-top: 0px;
+        width: 30%;
+        display: inline-block;
+        position: relative;
+        top: 33px;
+        left: 7%;
+    }
+    
+    .contactcont3 div{
+        margin-bottom: 14px;
+    
+    }.contactcont4 {
+        width: 100%;
+        margin-top: 37px;
+        display: block;
+        text-align: center;
+    }
+    .contactcont4 div{
+        margin-bottom: 14px;
+    }
+    .contactcont4 div:nth-child(3){
+        margin-top: 20px;
+    }
+    .contactcont  div{
+        margin-bottom: 14px;
+        
+    }
+    
+    .contactcont4 i{
+        font-size: 26px;
+        margin-right:17%;
+        cursor: pointer;
+    }
+    .contactcont4 i:hover{
+        color: rgb(165, 160, 160);
+    
+    }
+    .contactcont4 input{
+        background-color: black;
+        border: 1px solid white;
+        padding: 7px 27px;
+        border-right:none ;
+        font-size: 15px;
+        color: white;
+        border-radius: 4px;
+    }
+    .contactcont4 input:focus{
+        outline: none;
+    }
+    .contactcont4 button{
+        background-color: white;
+        position: relative;
+        right: 2px;
+        padding: 10px 30px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 0 3px 3px 0;
+    }
+    .contactcont4 button:hover{
+        background-color: rgb(240, 235, 235);
+    }
+    .contactcont4 button:focus{
+        outline: none;
+    }
+}
+
+
+@media screen and (max-width: 429px) {
+    body{
+        width: 100%;
+        min-height: 100%;
+        
+    }
+    .main{
+        width: 100%;
+        height: 325px;
+        background: url("../image/mainbike.jpg") no-repeat center  ;
+        background-size: cover;
+    }
+    .top{
+        width: 100%;
+        height: 120px;
+        font-family: 'Kaisei Decol', serif;
+    }
+    .logo{
+        float: left;
+        width: 44%;
+        padding: 10px 0px;
+        color: #000;
+        font-size: 15px;
+        text-transform: uppercase;
+    
+    }
+    .lion{
+        width: 37px;
+        height: 37px;
+        margin-right: 1px;
+    }
+    .topleft{
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        top: 56px;
+        left: 30%;
+        text-transform: capitalize;
+        position: absolute;
+        background-color: black;
+        z-index: 444 ;
+        border-radius: 8px;
+        display: none;
+
+    
+    }
+    .topleft div:hover{
+        color: #c7ac1b;
+        cursor: pointer;
+    }
+    .menus{
+        display: inline-flex;
+       padding: 30px 16px;
+       font-size: 16px;
+    
+    }
+    .topleft div{
+        padding: 20px 5px;
+        font-size: 16px;
+        color: white;
+    
+    }
+    .topright{
+        float: right;
+        width: 54%;
+        text-align: end;
+        
+    
+       
+    }
+    #menu{
+        display:inline-block;
+        cursor: pointer;
+        
+        }
+   
+    .topright i{
+        font-size: 17px;
+        color: rgb(44, 44, 44);
+        padding: 20px 6px;
+        
+    
+    }
+    #close{
+        font-size: 20px;
+        color: white;
+        padding: 20px 30px;
+        position: absolute;
+        right: 0px;
+        cursor: pointer;
+        display: block;
+    }
+    .fa-times:hover{
+        color: rgb(161, 153, 153);
+    }
+    
+    .containmain{
+        width: 63%;
+    display: inline-block;
+    height: 159px;
+    background-color: #d4b60dad;
+    border-radius: 45px 52px 68px 188px;
+    transform: translate(30% ,0px);
+    }
+    .model{
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 700;
+        transform: translate(106px,29px);
+        display: inline-block;
+        }
+    .siam{
+        color: #fff;
+        font-size: 27px;
+        text-transform: uppercase;
+        transform: translate(30px,20px);
+        font-weight: 600;
+        letter-spacing: 8px;
+    }   
+    .shop{
+        color: #fff;
+        transform: translate(105px,19px);
+        font-weight: 700;
+        background-color: #fe8d01;
+        border-radius: 12px;
+        border: none;
+        padding: 4px 7px;
+    }
+    .shop:hover{
+       background-color: #ca7207;
+       cursor: pointer;
+    }
+    .shop:focus{
+        outline: none;
+    }
+    
+    /*details*/
+    .details{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
+        background-color: hsl(0deg 0% 96%)
+    }
+    .best{
+        color: #000;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 700;   
+        text-align: center;
+        font-family: 'Kaisei Decol', serif;
+    }
+    .benefit{
+        display:block;
+        margin-top: 0px;
+        width: 90%;
+    
+    }
+    .rect{
+        width: 79px;
+        height: 68px;
+        border-radius: 20px;
+        background-color: #ffd202;
+        box-shadow: 0px 1px 4px 2px #bc9a00;
+    
+    }
+    .rect:hover{
+        
+        background-color: #bb9b0d;
+        cursor: pointer;
+    
+    }
+    .benef{
+        left: 25%;
+        width: 40%;
+        height: 160px;
+        display: inline-block;
+        position: relative;
+        top: 22px;
+    }
+    .rect i{
+        font-size: 35px;
+        color: #000;
+        margin: 13px 21px;
+    }
+    .detbenef{
+        font-size: 15px;
+        font-family: fantasy;
+        text-transform: capitalize;
+        margin-top:10px;
+    }
+    /*models*/
+    .models{
+        width: 100%;
+        height: 2200px;
+    
+    }
+    mod{
+        width: 100%;
+        display: inline-block;
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .modelcont{
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 100px;
+    }
+    #modelcont2{
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .modelleft{
+        width: 90%;
+    
+        margin: auto;
+    }
+    .modeldetails{
+        width: 84%;
+        height: 248px;
+        background-color: #ffd202;
+        border-radius: 337px 119px 662px 624px;
+        
+    }
+    .modeldetails3{
+        width: 84%;
+        height: 248px;
+        text-align: center;
+        background-color: #ffd202;
+        border-radius:624px 662px  337px  119px; 
+        
+    }
+    .modelright{
+        width: 90%;
+        margin:60px auto;
+    }
+    .modeldetails2{
+        width:80%;
+        height: 300px;
+        text-align: left;
+    }
+    .modeldetails2 div:nth-child(1){
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;  
+          text-transform: capitalize;
+        color: #000;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .modeldetails2 div:nth-child(2){
+        width: 100%;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-family: 'Kaisei Decol', serif;
+        color: #000;
+    }
+    .buy{
+    
+     color: #fff;
+        font-weight: 700;
+        background-color: #fe8d01;
+        border-radius: 12px;
+        border: none;
+        margin-top: 35px;
+         padding: 9px 42px;
+         cursor: pointer;
+    }
+    .buy:hover{
+        background-color:  #d47705;
+    }
+    .bike{
+        width: 120%;
+        height: 120%;
+    }
+    /*reviews*/
+    
+    .review{
+        width: 100%;
+        height: 590px;
+    
+    
+    }
+    .wordrev{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+    }
+    .revdetails{
+        width: 100%;
+        height: 556px;
+        background-color:#ffd202;
+       
+    }
+    .reviewsdet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .revcont{
+        width: 98%;
+        margin-top: 30px;
+    
+    }
+    .revcont img{
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+    
+        
+    }
+    name{
+        display: inline;
+        font-size: 14px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        font-weight: 800;
+    
+    }
+    .stars{
+        position: relative;
+        top: 19px;
+        display: inline-block;
+        right: 90px;
+        width: 138px;
+    }
+    .stars i{
+        color: #f98300;
+        font-size: 16px;
+        margin-right: 3px;
+    }
+    #stars1{
+        right: 109px;
+    }
+    #star2{
+        right: 100px;
+    }
+    
+    .lorem{
+        width:90%;
+        font-size: 13px;
+        color: black;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;
+        margin: auto;
+    }
+    /*customer*/
+    
+    .customer{
+        width: 100%;
+        height: 2450px; 
+        text-align: center;   
+    
+    }
+    cus{
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;   
+        margin-bottom: 20px;
+    }
+    .photocont{
+        width: 100%;
+        height: 1060px;
+        margin: auto;
+        display:block;
+        margin-bottom: 20px;
+    
+    }
+    .photocont img:nth-child(1){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont img:nth-child(1):hover,.photocont img:nth-child(2):hover,.photocont img:nth-child(3):hover ,.photocont2 img:nth-child(1):hover,.photocont2 img:nth-child(2):hover,.photocont2 img:nth-child(3):hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    .photocont img:nth-child(2){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+        margin-top: 10px;
+    }
+    .photocont img:nth-child(3){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+        margin-top: 10px;
+    }
+    .photocont2{
+        width: 100%;
+        height: 1100px;
+        margin: auto;
+        display:block;
+        margin-bottom: 20px;
+    
+    }
+    .photocont2 img:nth-child(1){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+    }
+    .photocont2 img:nth-child(2){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+        margin-top: 10px;
+    }
+    .photocont2 img:nth-child(3){
+        width: 97%;
+        height: 350px;
+        border-radius: 5px;
+        opacity: .8;
+        margin-top: 10px;
+    }
+    .photolorem{
+        width: 95%;
+        margin: auto;
+        font-size: 16px;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize;         
+    }
+    /*contact us*/
+    
+    .contact{
+        width: 100%;
+        height: 360px;
+        background-color: black;
+        color: white;
+        display: inline-block;
+        font-family: 'Kaisei Decol', serif;
+        text-transform: capitalize; 
+        font-size: 12px;        
+    }
+    .contactcont{
+        width: 30%;
+        display: inline-block;
+        position: relative;
+        left: 1px;
+        }
+    .contactcont3{
+        margin-top: 0px;
+        width: 30%;
+        display: inline-block;
+        position: relative;
+        top: 33px;
+        left: 1%;
+    }
+    
+    .contactcont3 div{
+        margin-bottom: 14px;
+    
+    }.contactcont4 {
+        width: 100%;
+        margin-top: 37px;
+        display: block;
+        text-align: center;
+    }
+    .contactcont4 div{
+        margin-bottom: 14px;
+    }
+    .contactcont4 div:nth-child(3){
+        margin-top: 20px;
+    }
+    .contactcont  div{
+        margin-bottom: 14px;
+        
+    }
+    
+    .contactcont4 i{
+        font-size: 26px;
+        margin-right:17%;
+        cursor: pointer;
+    }
+    .contactcont4 i:hover{
+        color: rgb(165, 160, 160);
+    
+    }
+    .contactcont4 input{
+        background-color: black;
+        border: 1px solid white;
+        padding: 7px 27px;
+        border-right:none ;
+        font-size: 15px;
+        color: white;
+        border-radius: 4px;
+    }
+    .contactcont4 input:focus{
+        outline: none;
+    }
+    .contactcont4 button{
+        background-color: white;
+        position: relative;
+        right: 2px;
+        padding: 10px 30px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 0 3px 3px 0;
+    }
+    .contactcont4 button:hover{
+        background-color: rgb(240, 235, 235);
+    }
+    .contactcont4 button:focus{
+        outline: none;
+    }
+}
+
+
+
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #cecece;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #8f9091;
+    border-radius: 20px;
+    border: 3px solid #dadada;
+  }
