@@ -1358,7 +1358,8 @@ salary{
 .contactcont4 input{
     background-color: black;
     border: 1px solid white;
-    padding: 8px 10px;
+    width: 160px;
+        height: 42px;
     border-right:none ;
     font-size: 15px;
     color: white;
@@ -1371,7 +1372,8 @@ salary{
     background-color: white;
     position: relative;
     right: 2px;
-    padding: 10px 30px;
+        top: -2px;
+        padding: 12px 30px;
     border: none;
     cursor: pointer;
     font-weight: 600;
